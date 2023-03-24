@@ -1,4 +1,4 @@
-/* SASS - variables.scss - v */
+/* SASS - _variables.scss - v */
 :root {
   /* colors */
   --black-main: #212121;
@@ -39,9 +39,9 @@
   --header-height: 80px;
   --container-width: 1200px;
 }
-/* SASS - variables.scss - ^ */
+/* SASS - _variables.scss - ^ */
 /* --------------------------------------------------------- */
-/* SASS - _main.scss - v */
+/* SASS - _main-start.scss - v */
 .page {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
@@ -70,7 +70,7 @@
   margin-block-end: 0;
   color: var(--black-main);
 }
-/* SASS - _main.scss - ^ */
+/* SASS - _main-start.scss - ^ */
 /* --------------------------------------------------------- */
 /* SASS - _logo.scss - v */
 .logo {
@@ -612,10 +612,6 @@
 /* SASS - _page-footer.scss - ^ */
 /* --------------------------------------------------------- */
 /* SASS - _portfolio.scss - v */
-/* .portfolio { */
-/* font-size: 38px; */
-/* line-height: 2; */
-/* } */
 
 .portfolio__filters--list {
   display: flex;

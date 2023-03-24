@@ -1,0 +1,30 @@
+/* SASS - _main-start.scss - v */
+.page {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  list-style-type: none;
+  margin: auto;
+  padding-inline-start: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: $container-width;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.second-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: $black-main;
+}
+/* SASS - _main-start.scss - ^ */
