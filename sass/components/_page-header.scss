@@ -1,10 +1,8 @@
 /* SASS - _page-header.scss - v */
 .page-header {
-  height: $header-height;
   margin: auto;
   border: 1px solid $black;
   border-bottom: 1px solid $background;
-  background-color: $white;
 
   &--white {
     border: 1px solid $white;
@@ -14,7 +12,7 @@
   &__box {
     display: flex;
     align-items: center;
-    height: $header-height;
+    font-weight: 500;
   }
 
   &__box-nav-list {
@@ -54,8 +52,8 @@
   &__nav--active::after {
     content: "";
     position: absolute;
-    top: 76px;
-    width: 53px;
+    top: 78px;
+    width: 60px;
     height: 4px;
     border-radius: 2px;
     background-color: $blue;
@@ -72,7 +70,7 @@
   &__link {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin: 31px 0px 31px 30px;
     text-decoration: none;
     fill: $gray;
     color: $gray;
